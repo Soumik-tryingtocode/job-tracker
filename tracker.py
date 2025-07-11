@@ -13,7 +13,6 @@ def load_data():
 def save_data(data):
     with open(FILENAME, 'w') as f:
         json.dump(data, f, indent=4)
-
 def add_application():
     company = input("Company name: ")
     position = input("Position: ")
